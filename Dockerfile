@@ -13,7 +13,7 @@ sudo \
 nano \
 mc \
 unzip \
-wget
+wget \
 python3-pip \
 build-essential \
 checkinstall \
@@ -27,6 +27,16 @@ libc6-dev \
 libbz2-dev \
 libffi-dev \
 zlib1g-dev
+RUN wget --no-check-certificate https://www.python.org/ftp/python/3.8.0/Python-3.8.0.tgz && \
+tar xzf Python-3.8.0.tgz && \
+mv Python-3.8.0 /opt/
+RUN cd /opt/Python-3.8.0 && \
+./configure --enable-optimizations && \
+make altinstall
+RUN pip3.8 install --upgrade pip
+RUN pip3.8 install --upgrade gevent
+RUN pip3.8 install --upgrade psutil
+
 
 # clean up
 RUN rm -rf Python-3.8.0.tgz
