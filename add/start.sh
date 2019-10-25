@@ -1,6 +1,6 @@
 #!/bin/ash
 
-python3.7 /opt/HTTPAceProxy-master/acehttp.py >/dev/null 2>&1 &
+# python3.7 /opt/HTTPAceProxy-master/acehttp.py >/dev/null 2>&1 &
 
 # service apache2 start >/dev/null 2>&1 &
 
