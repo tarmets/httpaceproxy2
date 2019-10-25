@@ -9,6 +9,7 @@ RUN apt-get update && apt-get upgrade -y
 
 # install apt
 RUN apt-get install -y --no-install-recommends \
+python \
 sudo \
 nano \
 mc \
