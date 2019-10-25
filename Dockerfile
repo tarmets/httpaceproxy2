@@ -39,7 +39,7 @@ RUN pip3.8 install --upgrade psutil
 
 
 # clean up
-RUN -t mystuff rm -rf /opt/Python-3.8.0
+RUN rm -rf /opt/Python-3.8.0
 RUN rm -rf Python-3.8.0.tgz
 
 ADD add/start.sh /bin/start.sh
