@@ -1,5 +1,9 @@
 FROM ubuntu:19.10
 
+# time zone data
+ENV TZ=Europe/Tallinn
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
 # update
 RUN apt-get update && apt-get upgrade -y
 
