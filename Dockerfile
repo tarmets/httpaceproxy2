@@ -19,6 +19,7 @@ python-setuptools \
 python-m2crypto \
 python-libxslt1 \
 python-apsw \
+cron \
 sudo \
 nano \
 mc \
@@ -57,6 +58,9 @@ unzip master.zip -d /opt/
 # install acestream
 RUN wget --no-check-certificate https://github.com/tarmets/test/blob/master/acestream_3.1.49_ubuntu_18.04_x86_64.zip?raw=true && \
 unzip acestream_3.1.49_ubuntu_18.04_x86_64.zip?raw=true -d /opt/
+
+# cron-comand
+RUN (crontab -l ; echo "00 0-23/12 * * * apt-get update && apt-get upgrade -y && apt autoremove -y") | crontab
 
 # clean
 RUN rm -rf acestream_3.1.49_ubuntu_18.04_x86_64.zip?raw=true master.zip Python-3.8.0.tgz && \
