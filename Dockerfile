@@ -25,7 +25,7 @@ sudo \
 nano \
 wget \
 htop \
-mc
+mc \
 python3-pip \
 build-essential \
 checkinstall \
