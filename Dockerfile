@@ -65,6 +65,7 @@ RUN (crontab -l ; echo "00 0-23/12 * * * apt-get update && apt-get upgrade -y &&
 # clean
 RUN rm -rf acestream_3.1.49_ubuntu_18.04_x86_64.zip?raw=true master.zip Python-3.8.0.tgz && \
 apt autoremove -y
+RUN rm -r /opt/Python-3.8.0
 
 # add files
 ADD add/start.sh /bin/start.sh
