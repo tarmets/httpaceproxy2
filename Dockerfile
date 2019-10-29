@@ -19,12 +19,13 @@ python-setuptools \
 python-m2crypto \
 python-libxslt1 \
 python-apsw \
+unzip \
 cron \
 sudo \
 nano \
-mc \
-unzip \
 wget \
+htop \
+mc
 python3-pip \
 build-essential \
 checkinstall \
