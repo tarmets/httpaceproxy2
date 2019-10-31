@@ -12,6 +12,7 @@ RUN apt-get update && apt-get upgrade -y
 
 # install apt
 RUN apt-get install -y \
+python3-pip \
 python-setuptools \
 python-m2crypto \
 python-libxslt1 \
@@ -23,7 +24,6 @@ nano \
 wget \
 htop \
 mc \
-python3-pip \
 build-essential \
 checkinstall \
 libreadline-gplv2-dev \
