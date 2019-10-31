@@ -12,9 +12,6 @@ RUN apt-get update && apt-get upgrade -y
 
 # install apt
 RUN apt-get install -y \
-python3 \
-python3-psutil \
-python3-gevent \
 python-setuptools \
 python-m2crypto \
 python-libxslt1 \
