@@ -5,7 +5,7 @@
 
 # Установка
 
-`docker run -d --net host -e PGID=0 -e PUID=0 --restart always --privileged --name proxy2 -e TZ=Europe/Moscow tarmets/test2`
+`docker run -d --net host -e PGID=0 -e PUID=0 --restart always --privileged --name proxy2 -e TZ=Europe/Moscow tarmets/httpaceproxy2`
 
 # Контейнер
 `docker exec -it proxy2 /bin/bash`
