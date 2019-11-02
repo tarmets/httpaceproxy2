@@ -11,11 +11,11 @@ Torrent-tv.ru Playlist Downloader Plugin configuration file
 proxies = {}
 
 # Insert your Torrent-tv.ru playlist URL here or path to file ('file:///path/to/file' or 'file:///C://path//to//file' for Windows OS)
-url = 'https://raw.githubusercontent.com/tarmets/playlist-acestream/master/playlist.m3u'
+url = 'http://91.92.66.82/trash/ttv-list/as.all.player.m3u'
 
 # Download playlist every N minutes to keep it fresh
 # 0 = disabled
-updateevery = 360
+updateevery = 120
 
 # TV Guide URL
 tvgurl = 'https://teleguide.info/download/new3/xmltv.xml.gz'
