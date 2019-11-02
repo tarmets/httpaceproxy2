@@ -14,7 +14,7 @@
 # Там где (your_server_ip) вставьте туда свой ip-адрес!
 
 # Ace Stream Сервер Создать свой плейлист+Настройка
-`http://your_server_ip:6878/webui/app/test/server?#proxy-server-playlist`
+`http://your_server_ip:6878/webui/app/password/server?#proxy-server-playlist`
 
 # Для просмотров каналов, используйте ссылку
 `http://your_server_ip:8585/torrenttv/playlist.m3u`
