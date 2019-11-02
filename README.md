@@ -1,5 +1,6 @@
 # Ubuntu 19.10 Python 3.8
 # HTTPAceProxy® https://github.com/pepsik-kiev/HTTPAceProxy
+# Acestream 3.1.49
 
 # Плейлисты взяты ACE Search!
 
