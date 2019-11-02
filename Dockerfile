@@ -54,7 +54,7 @@ RUN wget --no-check-certificate https://github.com/pepsik-kiev/HTTPAceProxy/arch
 unzip master.zip -d /opt/
 
 # install acestream
-RUN wget --no-check-certificate https://github.com/tarmets/test/blob/master/acestream_3.1.49_ubuntu_18.04_x86_64.zip?raw=true && \
+RUN wget --no-check-certificate https://github.com/tarmets/test2/blob/master/add/acestream_3.1.49_ubuntu_18.04_x86_64.zip?raw=true && \
 unzip acestream_3.1.49_ubuntu_18.04_x86_64.zip?raw=true -d /opt/
 
 # cron-comand
