@@ -18,7 +18,7 @@ url = 'http://91.92.66.82/trash/ttv-list/as.all.player.m3u'
 updateevery = 120
 
 # TV Guide URL
-tvgurl = 'https://teleguide.info/download/new3/xmltv.xml.gz'
+tvgurl = 'http://www.teleguide.info/download/new3/jtv.zip'
 
 # Shift the TV Guide time to the specified number of hours
 tvgshift = 0
